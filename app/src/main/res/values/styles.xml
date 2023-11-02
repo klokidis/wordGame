@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.wordGame.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">@dimen/min_text_height</item>
+        <item name="android:minWidth">@dimen/min_text_width</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <style name="Widget.wordGame.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="background">@drawable/rounded_bg</item>
+    </style>
+</resources>

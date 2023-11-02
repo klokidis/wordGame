@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Word game</string>
+    <string name="text_random">Random Letters:</string>
+    <string name="input_text">Guess words:)</string>
+    <string name="primary_color">Primary color</string>
+    <string name="button">butn</string>
+    <string name="button_reset">Reset</string>
+    <string name="secondary_color">Secondary color</string>
+    <string name="output_text">lets start</string>
+    <string name="wrightInput">well done!!:3</string>
+    <string name="wrongInput">invalid input :(</string>
+    <string name="score">your score is:</string>
+    <string name="content">Scroll view for user input</string>
+    <string name="count">0</string>
+    <string name="S1">  </string>
+    <string name="S2"> </string>
+    <string name="S3"> </string>
+    <string name="S4"> </string>
+    <string name="S5"> </string>
+    <string name="S6"> </string>
+    <string name="S7"> </string>
+    <string name="S8"> </string>
+    <string name="S9"> </string>
+</resources>
