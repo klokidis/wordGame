@@ -190,7 +190,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun checkWordInFile(word: String): Boolean {
-        val resourceId = resources.getIdentifier("filess", "raw", packageName)
+        val resourceId = resources.getIdentifier("words_file", "raw", packageName)
 
         if (resourceId == 0) {
             // Resource not found, handle this error condition
@@ -226,7 +226,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun wordsPresent(givenLetters: String): Int {
-        val resourceId = resources.getIdentifier("filess", "raw", packageName)
+        val resourceId = resources.getIdentifier("words_file", "raw", packageName)
         val inputStream: InputStream = resources.openRawResource(resourceId)
         val reader = BufferedReader(InputStreamReader(inputStream))
         var inputString: String?

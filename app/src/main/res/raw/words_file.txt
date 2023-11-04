@@ -397,7 +397,6 @@ answer
 answered
 answering
 answers
-ant
 antarctica
 antenna
 anthony
@@ -480,7 +479,6 @@ arabia
 arabic
 arbitrary
 arbitration
-arc
 arcade
 arch
 architect
@@ -491,7 +489,6 @@ archive
 archived
 archives
 arctic
-are
 area
 areas
 arena
@@ -637,7 +634,6 @@ auburn
 auckland
 auction
 auctions
-aud
 audi
 audience
 audio
@@ -670,13 +666,11 @@ autumn
 availability
 available
 avatar
-ave
 avenue
 average
 aviation
 avoid
 avoiding
-avon
 aw
 award
 awarded
@@ -938,7 +932,6 @@ bit
 bitch
 bite
 bits
-biz
 bizarre
 bizrate
 bl
@@ -1145,7 +1138,6 @@ brussels
 brutal
 bryan
 bryant
-bs
 bubble
 buck
 bucks
@@ -2215,7 +2207,6 @@ dark
 darkness
 darwin
 dash
-dat
 data
 database
 databases
@@ -2564,7 +2555,6 @@ distributors
 district
 districts
 disturbed
-div
 dive
 diverse
 diversity
@@ -2688,7 +2678,6 @@ drunk
 dry
 dryer
 ds
-dsl
 dual
 dubai
 dublin
@@ -2992,7 +2981,6 @@ estimated
 estimates
 estimation
 estonia
-et
 etc
 eternal
 ethernet
@@ -3006,7 +2994,6 @@ europe
 european
 euros
 eva
-eval
 evaluate
 evaluated
 evaluating
@@ -3487,7 +3474,6 @@ fountain
 four
 fourth
 fox
-fr
 fraction
 fragrance
 fragrances
@@ -3572,9 +3558,7 @@ fusion
 future
 futures
 fuzzy
-g
 git
-gin
 gabriel
 gadgets
 gage
@@ -4289,7 +4273,6 @@ industrial
 industries
 industry
 inexpensive
-inf
 infant
 infants
 infected
@@ -4310,7 +4293,6 @@ informative
 informed
 infrared
 infrastructure
-ing
 ingredients
 inherited
 initial
@@ -4467,12 +4449,8 @@ involved
 involvement
 involves
 involving
-io
-ion
-iowa
 ip
 ipod
-ips
 ira
 iran
 iraq
@@ -4482,16 +4460,12 @@ irish
 iron
 irrigation
 is
-isaac
-isbn
 islam
 islamic
 island
 islands
-isle
 isolated
 isolation
-isp
 israel
 israeli
 issue
@@ -4506,11 +4480,8 @@ italic
 italy
 item
 items
-its
-itsa
 itself
 itunes
-ivory
 jack
 jacket
 jackets
@@ -4526,7 +4497,6 @@ jam
 jamaica
 james
 jamie
-jan
 jane
 janet
 january
@@ -4555,7 +4525,6 @@ jesse
 jessica
 jesus
 jet
-jets
 jewel
 jewellery
 jewelry
@@ -4722,7 +4691,6 @@ laboratories
 laboratory
 labour
 labs
-lace
 lack
 ladder
 laden
@@ -5597,7 +5565,6 @@ nascar
 nasdaq
 nashville
 nasty
-nat
 nathan
 nation
 national
@@ -5784,7 +5751,6 @@ oaks
 oasis
 obesity
 obituaries
-obj
 object
 objective
 objectives
@@ -6878,7 +6844,6 @@ rebates
 rebecca
 rebel
 rebound
-rec
 recall
 receipt
 receive
@@ -7365,7 +7330,6 @@ samples
 sampling
 samsung
 samuel
-san
 sand
 sandra
 sandwich
@@ -8709,7 +8673,7 @@ traveling
 traveller
 travelling
 travels
-travesti
+travesty
 travis
 tray
 treasure
@@ -8724,12 +8688,10 @@ treatments
 treaty
 tree
 trees
-trek
-trembl
+tremble
 tremendous
 trend
 trends
-treo
 tri
 trial
 trials
@@ -8827,18 +8789,14 @@ ugly
 uh
 uk
 ukraine
-ul
 ultimate
 ultimately
 ultra
-ultram
-una
 unable
 unauthorized
 unavailable
 uncertainty
 uncle
-und
 undefined
 under
 undergraduate
@@ -8914,7 +8872,6 @@ us
 usa
 usage
 usb
-usc
 use
 used
 useful
@@ -8974,7 +8931,6 @@ vat
 vatican
 vault
 vbulletin
-vcr
 vector
 vegas
 vegetable
@@ -9054,7 +9010,6 @@ violations
 violence
 violent
 violin
-vip
 viral
 virgin
 virginia
@@ -9402,7 +9357,6 @@ yield
 yields
 yo
 yoga
-york
 yorkshire
 you
 young
