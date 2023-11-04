@@ -49,14 +49,13 @@ class MainActivity : AppCompatActivity() {
             resetArray()
             setLetters()
             setExistedWords()
-            words=0
         }
         setExistedWords()
     }
 
     private fun setExistedWords(){
-        var takenString: String = String(letters)
-        var amount = wordsPresent(takenString)
+        val takenString = String(letters)
+        val amount = wordsPresent(takenString)
         binding.amountOfWords.text = amount.toString()
     }
 
@@ -89,7 +88,6 @@ class MainActivity : AppCompatActivity() {
         wordsSubmittedList.clear()
         binding.textOutPut.text = getString(R.string.output_text)
         binding.textOutPut.setTextColor(Color.WHITE)
-        binding.count.text = countCorrect.toString()
     }
 
     private fun generateRandomLetters() : Char{
@@ -126,15 +124,8 @@ class MainActivity : AppCompatActivity() {
             println(inputtedWord)
             if (checkWordInFile(inputtedWord) && !wordIsAlreadyIn(inputtedWord) && inputtedWord.isNotEmpty() && inputtedWord.length>1 && checkWordExist(inputtedWord) && checkRepeat(inputtedWord)) {
                 binding.textOutPut.setTextColor(Color.GREEN)
-                if(words != 0){
-                    words--
-                    binding.amountOfWords.text=words.toString()
-                }else{
-                    binding.amountOfWords.text=getString(R.string.winningmessage)
-                    binding.amountOfWords.setTextColor(Color.GREEN)
-                }
+                wordsLeftAmount()
                 countCorrect++
-                binding.count.text = countCorrect.toString()
                 binding.textOutPut.text = getString(R.string.wrightInput)
                 wordsSubmittedList.add(inputtedWord)
                 binding.TextInput.text?.clear()
@@ -147,6 +138,16 @@ class MainActivity : AppCompatActivity() {
 
         binding.TextInput.text?.clear()
 
+    }
+
+    private fun wordsLeftAmount(){ // count down the words and provide message of whats left
+        words-- // words that are left to found
+        if(words != 0){
+            binding.amountOfWords.text=words.toString()
+        }else{
+            binding.amountOfWords.text=getString(R.string.winningmessage)
+            binding.amountOfWords.setTextColor(Color.GREEN)
+        }
     }
 
     private fun checkRepeat(word : String) : Boolean{
@@ -172,7 +173,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             if (!b) {
-                return false;
+                return false
             }
         }
         return true
@@ -190,7 +191,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun checkWordInFile(word: String): Boolean {
-        val resourceId = resources.getIdentifier("words_file", "raw", packageName)
+        val resourceId = R.raw.words_file
 
         if (resourceId == 0) {
             // Resource not found, handle this error condition
@@ -219,14 +220,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun hasAllLetters(wordFromFile: String, existedLetter: String): Boolean {
-        val charSet1 = wordFromFile.toLowerCase(Locale.ROOT).toSet()
-        val charSet2 = existedLetter.toLowerCase(Locale.ROOT).toSet()
+        val charSet1 = wordFromFile.lowercase(Locale.ROOT).toSet()
+        val charSet2 = existedLetter.lowercase(Locale.ROOT).toSet()
 
         return charSet1.all { charSet2.contains(it) }
     }
 
-    private fun wordsPresent(givenLetters: String): Int {
-        val resourceId = resources.getIdentifier("words_file", "raw", packageName)
+    private fun wordsPresent(givenLetters: String): Int { //reads how many words you can create with the letters you pass
+        words=0
+        binding.amountOfWords.setTextColor(Color.WHITE)//resets the color
+        val resourceId = R.raw.words_file
         val inputStream: InputStream = resources.openRawResource(resourceId)
         val reader = BufferedReader(InputStreamReader(inputStream))
         var inputString: String?

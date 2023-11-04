@@ -20,6 +20,7 @@
             android:layout_height="25dp"
             android:text="@string/score"
             android:textSize="11sp"
+            android:textAllCaps="false"
             app:layout_constraintBottom_toTopOf="@+id/TextInput_text"
             app:layout_constraintStart_toStartOf="@+id/TextInput_text"
             app:layout_constraintTop_toBottomOf="@+id/gridLayout2" />
@@ -163,18 +164,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button" />
 
-    <TextView
-        android:id="@+id/count"
-        style="@style/Widget.wordGame.TextView"
-        android:layout_width="22dp"
-        android:layout_height="25dp"
-        android:text="@string/count"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toTopOf="@+id/TextInput_text"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
-
-    <Button
+        <Button
         android:id="@+id/buttonReset"
         android:layout_width="71dp"
         android:layout_height="56dp"
@@ -193,12 +183,13 @@
             android:id="@+id/amountOfWords"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
+            android:layout_marginStart="3dp"
             android:textColor="?colorOnPrimary"
-            app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
-            app:layout_constraintEnd_toEndOf="@+id/gridLayout2"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toTopOf="@+id/textView" />
+            app:layout_constraintBottom_toTopOf="@+id/TextInput_text"
+            app:layout_constraintEnd_toEndOf="@+id/TextInput_text"
+            app:layout_constraintHorizontal_bias="0.031"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/gridLayout2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
