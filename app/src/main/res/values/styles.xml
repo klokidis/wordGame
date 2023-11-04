@@ -16,4 +16,9 @@
         <item name="android:gravity">center_vertical</item>
         <item name="background">@drawable/rounded_bg</item>
     </style>
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
 </resources>

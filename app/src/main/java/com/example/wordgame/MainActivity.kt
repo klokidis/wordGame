@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity() {
                     words--
                     binding.amountOfWords.text=words.toString()
                 }else{
-                    binding.amountOfWords.text="you found them all!!:0"
+                    binding.amountOfWords.text=getString(R.string.winningmessage)
                     binding.amountOfWords.setTextColor(Color.GREEN)
                 }
                 countCorrect++

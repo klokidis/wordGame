@@ -9,8 +9,9 @@
     <string name="output_text">lets start</string>
     <string name="wrightInput">well done!!:3</string>
     <string name="wrongInput">invalid input :(</string>
-    <string name="score">your score is:</string>
+    <string name="score">words left:</string>
     <string name="content">Scroll view for user input</string>
+    <string name="winningmessage">you found them all!!:0</string>
     <string name="count">0</string>
     <string name="S1">  </string>
     <string name="S2"> </string>
