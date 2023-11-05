@@ -19,11 +19,10 @@
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:text="@string/score"
-            android:textSize="11sp"
             android:textAllCaps="false"
+            android:textSize="11sp"
             app:layout_constraintBottom_toTopOf="@+id/TextInput_text"
-            app:layout_constraintStart_toStartOf="@+id/TextInput_text"
-            app:layout_constraintTop_toBottomOf="@+id/gridLayout2" />
+            app:layout_constraintStart_toStartOf="@+id/TextInput_text" />
 
     <Button
         android:id="@+id/button"
@@ -39,86 +38,86 @@
         app:layout_constraintTop_toTopOf="@+id/TextInput_text"
         app:layout_constraintVertical_bias="1.0" />
 
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/gridLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/rounded_bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/text1"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S1"
-            app:layout_column="0"
-            app:layout_row="0" />
+            <TextView
+                android:id="@+id/text1"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S1"
+                app:layout_column="0"
+                app:layout_row="0" />
 
-        <TextView
-            android:id="@+id/text2"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S2"
-            app:layout_column="0"
-            app:layout_row="1" />
+            <TextView
+                android:id="@+id/text2"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S2"
+                app:layout_column="0"
+                app:layout_row="1" />
 
-        <TextView
-            android:id="@+id/text3"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S3"
-            app:layout_column="0"
-            app:layout_row="2" />
+            <TextView
+                android:id="@+id/text3"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S3"
+                app:layout_column="0"
+                app:layout_row="2" />
 
-        <TextView
-            android:id="@+id/text4"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S4"
-            app:layout_column="1"
-            app:layout_row="0" />
+            <TextView
+                android:id="@+id/text4"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S4"
+                app:layout_column="1"
+                app:layout_row="0" />
 
-        <TextView
-            android:id="@+id/text5"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S5"
-            app:layout_column="1"
-            app:layout_row="1" />
+            <TextView
+                android:id="@+id/text5"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S5"
+                app:layout_column="1"
+                app:layout_row="1" />
 
-        <TextView
-            android:id="@+id/text6"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S6"
-            app:layout_column="1"
-            app:layout_row="2" />
+            <TextView
+                android:id="@+id/text6"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S6"
+                app:layout_column="1"
+                app:layout_row="2" />
 
-        <TextView
-            android:id="@+id/text7"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S7"
-            app:layout_column="2"
-            app:layout_row="0" />
+            <TextView
+                android:id="@+id/text7"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S7"
+                app:layout_column="2"
+                app:layout_row="0" />
 
-        <TextView
-            android:id="@+id/text8"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S8"
-            app:layout_column="2"
-            app:layout_row="1" />
+            <TextView
+                android:id="@+id/text8"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S8"
+                app:layout_column="2"
+                app:layout_row="1" />
 
-        <TextView
-            android:id="@+id/text9"
-            style="@style/Widget.wordGame.TextView"
-            android:text="@string/S9"
-            app:layout_column="2"
-            app:layout_row="2" />
+            <TextView
+                android:id="@+id/text9"
+                style="@style/Widget.wordGame.TextView"
+                android:text="@string/S9"
+                app:layout_column="2"
+                app:layout_row="2" />
 
-    </androidx.gridlayout.widget.GridLayout>
+        </androidx.gridlayout.widget.GridLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/TextInput_text"
         android:layout_width="239dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="27dp"
         android:layout_marginEnd="7dp"
         android:background="@drawable/rounded_bg"
         android:hint="@string/input_text"
@@ -126,18 +125,25 @@
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.833"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout2"
+        app:boxBackgroundMode="none">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/TextInput"
             style="@style/Widget.wordGame.TextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textAlignment="textStart"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="textStart"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
